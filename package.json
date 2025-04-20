@@ -14,9 +14,11 @@
     "@react-three/drei": "^10.0.6",
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
+    "@tailwindcss/vite": "^4.1.4",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.4",
     "three": "^0.175.0"
   },
   "devDependencies": {
