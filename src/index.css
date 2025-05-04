@@ -16,8 +16,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
   background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9ecff;
+  border-radius: 10px;
 }
 
 section {
