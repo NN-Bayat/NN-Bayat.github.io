@@ -253,20 +253,24 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "whatsapp",
+    imgPath: "/images/social/whatsapp.png",
+    url: "https://wa.me/93766712460?text=Hey%20I%20saw%20your%20Portfolio",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/social/github.png",
+    url: "https://github.com/NN-Bayat",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/social/linkedin.png",
+    url: "https://www.linkedin.com/in/nn-bayat/",
+  },
+  {
+    name: "instagram",
+    imgPath: "/images/social/instagram.png",
+    url: "https://www.instagram.com/smilerv4?igsh=cXMybmlqN2M4cW51",
   },
 ];
 

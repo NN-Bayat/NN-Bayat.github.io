@@ -326,7 +326,7 @@ section {
       }
 
       img {
-        @apply inline-block;
+        @apply inline-block w-6 h-6;
       }
     }
   }
