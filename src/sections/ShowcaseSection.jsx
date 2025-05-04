@@ -44,7 +44,7 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
+    <div id="work" ref={sectionRef} className="app-showcase scroll-mt-10">
       <div className="w-full">
         <div className="showcaselayout">
           {/* LEFT */}

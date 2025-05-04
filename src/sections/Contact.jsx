@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="flex-center section-padding">
+    <section id="contact" className="flex-center section-padding scroll-mt-24">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Get in Touch With Me"
@@ -48,7 +48,7 @@ const Contact = () => {
         <div className="grid-12-cols mt-16">
           {/* Contact Form - Left Side */}
           <div className="xl:col-span-5">
-            <div className="flex-center card-border rounded-xl p-10">
+            <div className="flex-center card-border rounded-xl py-7 px-7 md:p-10">
               <form
                 ref={formRef}
                 onSubmit={handleSubmit}

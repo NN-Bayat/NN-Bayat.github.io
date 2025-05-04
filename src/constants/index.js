@@ -4,6 +4,10 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "Projects",
+    link: "https://github.com/NN-Bayat?tab=repositories",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
