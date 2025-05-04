@@ -25,7 +25,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="flex-center section-padding"
+      className="flex-center section-padding scroll-mt-24"
       aria-label="Client Testimonials"
     >
       <div className="w-full h-full md:px-10 px-5">

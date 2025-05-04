@@ -4,6 +4,10 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "Projects",
+    link: "https://github.com/NN-Bayat?tab=repositories",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
@@ -120,19 +124,19 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
+    name: "JavaScript Master",
+    modelPath: "/models/javascript_1.glb",
+    scale: 0.2,
+    rotation: [5.5, -4.8, -4],
   },
   {
-    name: "Backend Developer",
+    name: "Backend Basic",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Interactive Designer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],

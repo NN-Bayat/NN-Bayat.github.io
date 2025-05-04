@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center items-center md:items-start">
-          <a href="/">something</a>
+          <a href="/">Noorullah Noori Bayat</a>
         </div>
 
         <div className="socials">
@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} — Noorullah Noori Bayat.
+            Designed & Developed &mdash; {new Date().getFullYear()}
           </p>
         </div>
       </div>

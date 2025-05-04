@@ -15,10 +15,15 @@ body {
   font-family: "Mona Sans", sans-serif;
 }
 
-/* ::-webkit-scrollbar {
-  width: 0px;
+::-webkit-scrollbar {
+  width: 10px;
   background: transparent;
-} */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9ecff;
+  border-radius: 10px;
+}
 
 section {
   width: 100dvw;
@@ -86,7 +91,7 @@ section {
   }
 
   .hero-layout {
-    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex xl:items-center items-start justify-center;
+    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[92vh] flex xl:items-center items-start justify-center;
   }
 
   .hero-text {
@@ -104,14 +109,14 @@ section {
   }
 
   .hero-3d-layout {
-    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+    @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-42 xl:-right-20 right-0;
   }
 
   .navbar {
-    @apply fixed w-full left-1/2 py-5 px-5 md:px-20 -translate-x-1/2 z-[100] transition-all duration-300 ease-in-out;
+    @apply fixed w-full left-1/2 md:py-3 py-4.5 px-5 md:px-20 -translate-x-1/2 z-[100] transition-all duration-300 ease-in-out;
 
     &.scrolled {
-      @apply top-0 bg-black;
+      @apply top-0 bg-black md:py-6;
     }
 
     &.not-scrolled {
@@ -123,7 +128,7 @@ section {
     }
 
     .logo {
-      @apply text-white-50 text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105;
+      @apply text-white-50 text-xl md:text-[32px] font-semibold transition-transform duration-300 hover:scale-105;
     }
 
     nav.desktop {
@@ -133,7 +138,7 @@ section {
         @apply flex space-x-8;
 
         li {
-          @apply text-white-50 relative;
+          @apply text-white-50 relative text-[18px];
 
           span {
             @apply transition-colors duration-300 hover:text-white;
