@@ -10,7 +10,7 @@ const Footer = () => {
 
         <div className="socials">
           {socialImgs.map((img) => (
-            <a className="icon" href={img.url} key={img.url}>
+            <a className="icon" href={img.url} key={img.name}>
               <img src={img.imgPath} alt={img.name} />
             </a>
           ))}
@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            Designed & Developed &mdash; {new Date().getFullYear()}
+            Designed & Developed &mdash; NN-Bayat &mdash; 2025
           </p>
         </div>
       </div>
