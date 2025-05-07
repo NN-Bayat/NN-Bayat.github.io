@@ -50,16 +50,19 @@ const AppShowcase = () => {
           {/* LEFT */}
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img
+                src="/images/project/zentryMac.png"
+                alt="Ryde App Interface"
+              />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                A clean and powerful experience brought to life with unique and
+                action-ready characters.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                A sleek and high-performance app built with React and Tailwind
+                CSS for a seamless user experience.
               </p>
             </div>
           </div>
@@ -69,7 +72,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/project/brainwavePad.png"
                   alt="Library Management Platform"
                 />
               </div>
@@ -78,7 +81,10 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img
+                  src="/images/project/brainwaveMob.png"
+                  alt="YC Directory App"
+                />
               </div>
               <h2>YC Directory - A Startup Showcase App</h2>
             </div>
