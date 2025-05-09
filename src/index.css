@@ -175,10 +175,10 @@ section {
       @apply h-full flex flex-col justify-between xl:w-[60%];
 
       .image-wrapper {
-        @apply xl:h-[70vh] md:h-[50vh] h-96 relative rounded-xl bg-[#dfdff0];
+        @apply xl:h-[72vh] lg:h-[95vh] md:h-[75vh] sm:h-[65vh] h-96 relative rounded-xl bg-[#dfdff0];
 
         img {
-          @apply w-full object-center absolute rounded-xl inset-0 top-5;
+          @apply w-full h-auto object-cover absolute rounded-xl inset-0 md:top-3;
         }
       }
 
@@ -257,7 +257,7 @@ section {
   }
 
   .timeline-logo {
-    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;
+    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 md:-translate-x-1 border border-black-50 bg-black-100;
   }
 
   .exp-card-wrapper {

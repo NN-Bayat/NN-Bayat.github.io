@@ -152,15 +152,15 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/experience/exp1.png",
-    logoPath: "/images/experience/github.svg",
+      "Noorullah is a self-taught developer who creates real-world projects to continuously enhance his skills. He is passionate about building websites that are both functional and visually appealing, and strives to improve with each project he undertakes.",
+    // imgPath: "/images/experience/githubExp.png",
+    logoPath: "/images/experience/github.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "November 2024 — Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed real-world projects to strengthen coding skills, apply new technologies, and create responsive, user-friendly interfaces.",
+      "Engaged in daily LeetCode practice to refine problem-solving abilities and enhance coding efficiency.",
+      "Collaborated with UI/UX teams to design and implement responsive, user-friendly interfaces.",
     ],
   },
 ];
