@@ -15,13 +15,13 @@ const App = () => {
       <Navbar />
       <Hero />
       <ShowcaseSection />
-      {/* <LogoSection />
+      <LogoSection />
       <FeatureCards />
       <ExperienceSection />
       <TechStack />
       <Testimonials />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
