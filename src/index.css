@@ -244,10 +244,6 @@ section {
     @apply border border-black-50 bg-black-100;
   }
 
-  .marquee-item {
-    @apply md:w-40 w-32;
-  }
-
   .timeline-wrapper {
     @apply absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center;
   }
